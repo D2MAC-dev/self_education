@@ -16,4 +16,3 @@ def get_email_from_user(attempts = 5, sleep_duration = 15):
 
 def make_username(email):
 	return email.split("@")[0].lower()
-#коммент
